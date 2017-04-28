@@ -20,7 +20,6 @@ type Props = {
 	renderNoMoreCards: Function,
 };
 
-export const SCREEN_HEIGHT = Dimensions.get('window').height * 0.75;
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const SWIPE_THRESHOLD = 0.25 * SCREEN_WIDTH;
 const SWIPE_OUT_DURATION = 250;
